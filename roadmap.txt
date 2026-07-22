@@ -1,0 +1,124 @@
+Yes, this is a very good roadmap for a beginner. I would make just one small change to improve the learning order.
+
+Day 1 – Loops ✅
+
+Topics
+
+for loop
+while loop
+range()
+break
+continue
+pass
+Nested loops
+
+Practice
+
+Print patterns
+Multiplication table
+Sum of numbers
+Prime number check
+Guess the Number Game
+Day 2 – Functions ✅
+
+Topics
+
+Creating functions
+Parameters & Arguments
+return
+Default arguments
+Keyword arguments
+Local & Global variables
+
+Practice
+
+Calculator
+Factorial
+Fibonacci
+Palindrome checker
+
+Mini Project
+
+Student Grade Calculator
+Day 3 – Data Structures ✅
+
+Topics
+
+Lists
+Tuples
+Sets
+Dictionaries
+List methods
+Dictionary methods
+List comprehension (Introduction)
+
+Practice
+
+Student Marks Manager
+Remove Duplicates
+Frequency Counter
+To-Do List
+
+Mini Project
+
+Contact Book
+Day 4 – Strings & File Handling ✅
+
+Topics
+
+String slicing
+String methods
+File handling (open(), read(), write(), append())
+with open()
+
+Practice
+
+Word Counter
+Find & Replace
+Read a text file
+Write notes to a file
+
+Mini Project
+
+Notes Manager
+Day 5 – Exception Handling & OOP Basics ✅
+
+Topics
+
+try
+except
+finally
+raise
+Classes & Objects
+Constructor (__init__)
+Methods
+Introduction to Inheritance
+
+Practice
+
+ATM System
+Bank Account Class
+Student Management System
+
+Mini Project
+
+Library Management System (Basic)
+Daily Routine
+📖 45 min → Learn theory
+💻 90 min → Code examples
+✍️ 60 min → Solve 10–15 practice problems
+🚀 30 min → Build a mini project
+🔄 15 min → Revise notes
+Rating: 9.5/10
+
+This roadmap is well structured and is enough to build a strong Python foundation. After completing these 5 days, the next topics I'd recommend are:
+
+Modules & Packages
+Virtual Environments (venv)
+pip
+Python libraries (requests, os, sys, json)
+Automation scripts
+Git + Python
+Dockerizing Python applications
+
+That progression is especially useful if your goal is to move into DevOps and Cloud.
