@@ -17,4 +17,9 @@ age.reverse() #help to print reverse element
 
 age.insert(3,15) #insert value (index,element)
 
+age.remove(161) #help to remove this number
+
+age.pop(1) #help to remove this idx number 
+
+
 print(age)
