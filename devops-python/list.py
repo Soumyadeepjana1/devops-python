@@ -6,7 +6,7 @@ print(age)
 print(age[0:2]) #list sliyacing
 
 age.append(19) # append funcation help to add one eliment in list
-print(age)
+print(age) 
 
 age.sort()  #help to sort small to big
 
