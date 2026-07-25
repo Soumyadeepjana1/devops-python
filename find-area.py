@@ -1,2 +1,2 @@
-are = int(input("enter are : "))
-print(are * are)
+side = float(input("enter side length of square: "))
+print("Area of square is:", side * side)
