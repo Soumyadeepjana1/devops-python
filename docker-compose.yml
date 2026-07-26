@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  # Python Development Environment
+  python-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: python_devops_dev
+    volumes:
+      - .:/app
+      - python_cache:/root/.cache/pip
+    environment:
+      - PYTHONUNBUFFERED=1
+    working_dir: /app
+    stdin_open: true
+    tty: true
+    command: /bin/bash
+
+  # PostgreSQL Database (if needed)
+  postgres:
+    image: postgres:15-alpine
+    container_name: python_devops_postgres
+    environment:
+      POSTGRES_DB: devops_db
+      POSTGRES_USER: devops_user
+      POSTGRES_PASSWORD: devops_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  # Redis (if needed for caching)
+  redis:
+    image: redis:7-alpine
+    container_name: python_devops_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+volumes:
+  python_cache:
+  postgres_data:
+  redis_data:

@@ -1,12 +1,22 @@
-// {
-//     "recommendations": [
-//         "ms-python.python",
-//         "ms-python.vscode-pylance",
-//         "ms-python.debugpy",
-//         "charliermarsh.ruff",
-//         "pkief.material-icon-theme",
-//         "oderwat.indent-rainbow",
-//         "usernamehw.errorlens",
-//         "njpwerner.autodocstring"
-//     ]
-// }
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+        "charliermarsh.ruff",
+        "pkief.material-icon-theme",
+        "oderwat.indent-rainbow",
+        "usernamehw.errorlens",
+        "njpwerner.autodocstring",
+        "ms-azuretools.vscode-docker",
+        "redhat.vscode-yaml",
+        "foxundermoon.shell-format",
+        "hashicorp.terraform",
+        "ms-vscode.makefile-tools",
+        "eamodio.gitlens",
+        "streetsidesoftware.code-spell-checker",
+        "ms-python.black-formatter",
+        "ms-python.isort",
+        "formulahendry.code-runner"
+    ]
+}
