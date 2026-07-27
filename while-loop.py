@@ -31,7 +31,10 @@ number = [1,4,9,16,25,36,49,64,81,100]
 
 i = 0 
 while i < len(number):
-    position = number.index(36)
-    
+    if number[i] == 36:
+        print("found",i)
+        break
+    else:
+        print("not found")
+            
     i += 1
-print(position,"found")
