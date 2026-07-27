@@ -22,3 +22,6 @@ print(sum)
 
 don = chodu(5,9)
 print(don)
+
+
+calculator(10,20)
