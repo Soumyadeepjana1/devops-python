@@ -37,5 +37,21 @@
 #     print(i)
 
 
-for i in range (1,11,1):
-    print(i*2)
+# for i in range (1,11,1):
+#     print(i*2)
+
+# listt = [12,16,20,24,28,32]
+
+# for i in listt:
+#     print(i)
+
+dic = {
+
+    "name" : "soumyadeep",
+    "age" : 22,
+    "city" : "kolkata"
+
+}
+
+for i in dic:
+    print(i)
