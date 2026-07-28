@@ -25,7 +25,7 @@
     // Shell Script Formatting for DevOps
     "[shellscript]": {
         "editor.formatOnSave": true,
-        "editor.defaultFormatter": "foxundermoon.shell-format"
+        // "editor.defaultFormatter": "foxundermoon.shell-format"
     },
 
     // YAML Formatting for DevOps (Docker, Kubernetes)
