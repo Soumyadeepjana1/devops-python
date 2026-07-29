@@ -69,8 +69,50 @@
 # odd_even(10)
 
 
-def nat(n):
-    if n == 0:
-        return 0
-    return n + nat(n-1)
-print(nat(7))
+# def nat(n):
+#     if n == 0:
+#         return 0
+#     return n + nat(n-1)
+# print(nat(7))
+
+
+# def n_f(i):
+#     if i > 10:
+#         return
+#     print(i)
+#     n_f(i + 1)
+    
+# n_f(1)
+
+
+# def p(i):
+#     if i < 1:
+#         return
+#     print(i)
+#     p(i-1)
+# p(10)
+
+
+# def sum_di(n):
+#     if n > 10:
+#         return 1
+#     return sum_di(n+1)+ n
+# print(sum_di(1))
+
+
+# def cal(n):
+#     if n == 0:
+#         return 0
+#     return(cal(n-1)+n)
+
+# print(cal(5))
+
+def print_list(lst, idx=0):
+    if idx == len(lst):
+        return
+
+    print(lst[idx])
+    print_list(lst, idx + 1)
+
+print_list(["apple", "banana", "cherry"])
+
