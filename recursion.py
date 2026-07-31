@@ -107,12 +107,42 @@
 
 # print(cal(5))
 
-def print_list(lst, idx=0):
-    if idx == len(lst):
-        return
+# def print_list(lst, idx=0):
+#     if idx == len(lst):
+#         return
 
-    print(lst[idx])
-    print_list(lst, idx + 1)
+#     print(lst[idx])
+#     print_list(lst, idx + 1)
 
-print_list(["apple", "banana", "cherry"])
+# print_list(["apple", "banana", "cherry"])
 
+
+
+def count_down(n):
+    if n < 0:
+        print("done")
+    else:
+        print(n)
+        return(count_down(n - 1))
+
+count_down(10)
+
+
+
+def count(n):
+    if n == 10:
+        print("done")
+    else:
+        print(n)
+        return(count(n + 1))
+count(1)
+
+
+def fact(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        
+        return n * fact(n -1)       
+n = fact(10)
+print(n)
